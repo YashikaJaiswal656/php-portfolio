@@ -1,0 +1,112 @@
+.sm_cont_three span {
+    color: #a5b3ce;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+ hr{
+    width: 90%;
+    margin-top: 20px;
+}
+.re_cont{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.re_cont a{
+    padding: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #a5b3ce;
+}
+.re_cont p{
+    margin-right: 30px;
+}
+.resume_cont{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.resume_box_one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.resume_box_two{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.resume_box_one .sym , .resume_box_two .sym{
+    display: flex;
+    color: #a5b3ce;
+    align-items: center;
+    margin-top: 20px;
+}
+.sym h3 {
+color: white;
+margin-left: 20px;
+}
+.resume_box_one p{
+    text-align: left;
+    margin-top: 30px;
+}
+.syym h4{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.syym p{
+    display: flex;
+}
+.vertical-hr {
+    width: 1px; 
+    
+    background-color:  #a5b3ce;
+    border: none;
+    transform: rotate(180deg); 
+  }
+  .hr {
+    
+height: 1px; 
+    background-color:  #a5b3ce;
+    border: none;
+
+  }
+  .resume_box_two .symm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .resume_box_two b{
+    color: #a5b3ce;
+    margin-top: 10px;
+  }
+  .resume_box_two .symm a{
+    padding: 0;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top:10px  ;
+    color: #a5b3ce;
+  }
+  .resume_box_two .symm p{
+    text-align: left;
+    margin-top: 10px;
+  }
+  @media only screen and (max-width:930px){
+    .resume_cont{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .resume_box_one,.resume_box_two{
+        width:80%;
+    }
+  }
+  @media only screen and (max-width:620px){
+    .re_cont{
+        flex-direction:column;
+    }
+  }
