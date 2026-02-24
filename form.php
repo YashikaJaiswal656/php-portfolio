@@ -28,14 +28,14 @@ if (isset($_POST["send"])) {
         $mail->isSMTP();                              // Send using SMTP
         $mail->Host       = 'smtp.gmail.com';        // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                     // Enable SMTP authentication
-        $mail->Username   = 'yashikajaiswal30@gmail.com'; // SMTP email
-        $mail->Password   = 'aurmddwyknpnrzby';      // SMTP password
+        $mail->Username   = ''; // SMTP email
+        $mail->Password   = '';      // SMTP password
         $mail->SMTPSecure = 'ssl';                    // Enable implicit SSL encryption
         $mail->Port       = 465;                      // TCP port to connect to
 
         // Recipients
         $mail->setFrom($_POST["email"], $_POST["name"]); // Sender Email and Name
-        $mail->addAddress('yashikajaiswal30@gmail.com');   // Add recipient email
+        $mail->addAddress('');   // Add recipient email
         $mail->addReplyTo($_POST["email"], $_POST["name"]); // Reply to sender email
 
         // Content
@@ -86,3 +86,4 @@ if (isset($_POST["send"])) {
 
 </body>
 </html>
+
